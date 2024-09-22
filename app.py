@@ -29,4 +29,4 @@ def handle_get():
     return jsonify({"operation_code": 1})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
